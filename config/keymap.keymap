@@ -21,7 +21,6 @@
 
         default_layer {
             bindings = <
-&none  &none                       &none         &none         &none  &none                                  &none        &none  &none      &none      &none                 &none
 &none  &mt LS(LA(LC(LEFT_GUI))) Q  &kp W         &kp E         &kp R  &kp T                                  &kp Y        &kp U  &kp I      &kp O      &kp P                 &none
 &none  &kp A                       &kp S         &kp D         &kp F  &kp G                                  &kp H        &kp J  &lt 1 K    &kp L      &kp ENTER             &none
 &none  &mt LEFT_SHIFT Z            &kp X         &kp C         &kp V  &kp B        &none        &none        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt RIGHT_SHIFT FSLH  &none
