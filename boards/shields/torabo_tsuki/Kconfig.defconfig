@@ -16,7 +16,7 @@ config SPI
 config INPUT
     default y
 
-config ZMK_MOUSE
+config ZMK_POINTING
     default y
 
 config PMW3610
