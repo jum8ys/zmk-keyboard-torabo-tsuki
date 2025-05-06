@@ -59,11 +59,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans             &trans  &trans  &trans          &trans                          &trans             &trans        &trans         &trans          &trans          &trans
-&trans  &kp C_VOLUME_UP    &kp F7  &kp F8  &kp F9          &kp F12                         &trans             &trans        &kp MINUS      &kp MINUS       &kp LC(LG(UP))  &trans
-&trans  &kp C_VOLUME_DOWN  &kp F4  &kp F5  &kp F6          &kp F11                         &kp LA(LG(EQUAL))  &kp LC(LEFT)  &kp LC(RIGHT)  &kp LC(UP)      &none           &trans
-&trans  &trans             &kp F1  &kp F2  &kp F3          &kp F10         &trans  &trans  &kp LA(LG(MINUS))  &kp LG(LBKT)  &kp LG(RBKT)   &kp LA(LG(N8))  &trans          &trans
-&trans  &trans             &trans  &trans  &kp LS(LG(N2))  &kp LS(LG(N4))  &mo 5   &trans  &mo 5              &trans        &trans         &trans          &trans          &trans
+&trans  &trans             &trans  &trans  &trans          &trans                          &trans             &trans        &trans         &trans             &trans          &trans
+&trans  &kp C_VOLUME_UP    &kp F7  &kp F8  &kp F9          &kp F12                         &trans             &trans        &kp LC(MINUS)  &kp LS(LC(MINUS))  &kp LC(LG(UP))  &trans
+&trans  &kp C_VOLUME_DOWN  &kp F4  &kp F5  &kp F6          &kp F11                         &kp LA(LG(EQUAL))  &kp LC(LEFT)  &kp LC(RIGHT)  &kp LC(UP)         &none           &trans
+&trans  &trans             &kp F1  &kp F2  &kp F3          &kp F10         &trans  &trans  &kp LA(LG(MINUS))  &kp LG(LBKT)  &kp LG(RBKT)   &kp LA(LG(N8))     &trans          &trans
+&trans  &trans             &trans  &trans  &kp LS(LG(N2))  &kp LS(LG(N4))  &mo 5   &trans  &mo 5              &trans        &trans         &trans             &trans          &trans
             >;
         };
 
