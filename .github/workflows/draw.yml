@@ -7,7 +7,7 @@ on:
       - main
     paths:
       - "config/keymap.keymap"
-      - "keymap_drawer.config.yaml"
+      - ".github/config/keymap_drawer.config.yaml"
       - "boards/shields/torabo_tsuki/torabo_tsuki.dtsi"
 
 jobs:
@@ -20,6 +20,6 @@ jobs:
       amend_commit: false
       keymap_patterns: "config/*.keymap"
       json_path: "config"
-      config_path: "keymap_drawer.config.yaml"
+      config_path: ".github/config/keymap_drawer.config.yaml"
       output_folder: "keymap-drawer"
       destination: "both"
