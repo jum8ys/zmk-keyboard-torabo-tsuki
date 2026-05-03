@@ -11,4 +11,4 @@ torabo-tsuki LP用は[こちら](https://github.com/sekigon-gonnoc/zmk-keyboard-
 
 ## Keymap
 
-<img src="keymap-drawer/keymap.svg" alt="keymap" />
+<img src="keymap-drawer/torabo-tsuki-s.svg" alt="torabo-tsuki-s keymap" />
