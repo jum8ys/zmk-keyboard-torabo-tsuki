@@ -8,3 +8,7 @@ torabo-tsuki LP用は[こちら](https://github.com/sekigon-gonnoc/zmk-keyboard-
 * _centralがついているuf2をトラックボールがついている方に、_peripheralを反対側に書き込んでください
 * キーマップはkeymap-editorおよびzmk-studioで編集できます
 * ブートローダを起動するにはキーマップに&bootloaderを割り当てておくか、シリアルポートを1200bpsで開いてから閉じてください
+
+## Keymap
+
+<img src="keymap-drawer/keymap.svg" alt="keymap" />
