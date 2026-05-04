@@ -12,3 +12,21 @@ torabo-tsuki LP用は[こちら](https://github.com/sekigon-gonnoc/zmk-keyboard-
 ## Keymap
 
 <img src="keymap-drawer/torabo-tsuki-s.svg" alt="torabo-tsuki-s keymap" />
+
+## ブートローダの起動方法 (macOS)
+
+シリアルポートを1200bpsで開いて閉じるとブートローダが起動します。
+
+1. デバイス名を確認 (`tty.usbmodemXXXXXXX` のような名前)
+
+   ```sh
+   ls /dev/tty.usb*
+   ```
+
+2. `screen` で1200bpsで開く
+
+   ```sh
+   screen /dev/tty.usbmodemXXXXXXX 1200
+   ```
+
+3. `Ctrl + a` に続けて `k` を押し、確認プロンプトで `y` を入力して `screen` を終了します。シリアルポートが閉じられるとブートローダが起動します。
