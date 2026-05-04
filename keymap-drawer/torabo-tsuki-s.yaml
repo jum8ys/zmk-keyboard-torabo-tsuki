@@ -1,0 +1,246 @@
+layout: {zmk_keyboard: torabo-tsuki-s}
+layers:
+  default:
+  - {t: Q, h: Meh+LEFT GUI}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - {t: K, h: '1'}
+  - L
+  - ENTER
+  - {t: Z, h: LEFT SHIFT}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - {t: /, h: RIGHT SHIFT}
+  - LCTRL
+  - LEFT ALT
+  - LEFT GUI
+  - '1'
+  - {t: LANG2, h: '2'}
+  - {t: SPACE, h: '3'}
+  - {t: SPACE, h: '4'}
+  - {t: LANG1, h: '1'}
+  - RCTRL
+  '1':
+  - ESCAPE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BACKSPACE
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - {t: UP, type: held}
+  - RIGHT
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '2':
+  - '`'
+  - Sft+`
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+9
+  - Sft+0
+  - '-'
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - ;
+  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+[
+  - Sft+]
+  - ','
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  '3':
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '4':
+  - VOLUME UP
+  - F7
+  - F8
+  - F9
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+-
+  - Sft+Ctl+-
+  - Ctl+Gui+UP
+  - VOLUME DOWN
+  - F4
+  - F5
+  - F6
+  - F11
+  - Alt+Gui+=
+  - Ctl+LEFT
+  - Ctl+RIGHT
+  - Ctl+UP
+  - ''
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F10
+  - Alt+Gui+-
+  - Gui+[
+  - Gui+]
+  - Alt+Gui+8
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Gui+2
+  - Sft+Gui+4
+  - '5'
+  - {type: held}
+  - '5'
+  - {t: ▽, type: trans}
+  '5':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+combos:
+- p: [28, 29]
+  k: BT CLR
+  l: ['2']

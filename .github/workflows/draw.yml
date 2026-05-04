@@ -6,9 +6,11 @@ on:
     branches:
       - main
     paths:
-      - "config/keymap.keymap"
+      - "config/torabo-tsuki-s.keymap"
+      - "config/torabo-tsuki-s.json"
       - "keymap_drawer.config.yaml"
       - "boards/shields/torabo_tsuki/torabo_tsuki.dtsi"
+      - "boards/shields/torabo_tsuki/torabo_tsuki_layouts.dtsi"
 
 jobs:
   draw:
